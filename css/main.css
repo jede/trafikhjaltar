@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+body, video {
   background-color: hsl(0,0%,15%);
 }
 
@@ -140,7 +140,7 @@ h1 {
 }
 
 
-@media screen and (min-aspect-ratio: 1/1) {
+@media screen and (min-aspect-ratio: 4/3) {
   #video-bg {
     width: 100%;
     height: auto;
