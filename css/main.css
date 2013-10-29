@@ -113,23 +113,15 @@ h1 {
   letter-spacing: -.05em;
   color: white;
   top: 50%;
-  margin: 0;
-  margin-top: -60px;
-  line-height: 120px;
-  font-size: 40px;
-
-}
-
-@media screen and (min-width: 550px) {
-  h1 {
-    font-size: 80px;
-  }
-}
-
-@media screen and (min-width: 850px) {
-  h1 {
-    font-size: 120px;
-  }
+  margin: 0 10%;
+  margin-top: -100px;
+  line-height: 240px;
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  background-image: url(../img/logo.svg);
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 #video-bg {
